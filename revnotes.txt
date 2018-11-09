@@ -2,3 +2,13 @@ Repository erstellt am: 08.11.2018
 Erstellt von: Tobias Tiedemann (GIT: tiedemannt)
 
 Changelog:
+
+Datum: 08.11.2018
+Version: v0.1
+Changes: Initialer Stand
+Autor: tiedemann
+
+Datum: 09.11.2018
+Version: v0.2
+Changes: V-Play Projekt initial erstellt
+Autor: tiedemann
