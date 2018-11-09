@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.7.0, 2018-11-09T15:16:29. -->
+<!-- Written by QtCreator 4.7.0, 2018-11-09T16:31:16. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -256,11 +256,11 @@
     </valuelist>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">AppPlayground</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">AppPlayground2</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/Tobi/Desktop/EmSys'WS18/EmSysBTApp/vPlayBTApp/AppPlayground.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">vPlayBTApp</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/Tobi/Desktop/EmSys'WS18/EmSysBTApp/vPlayBTApp/vPlayBTApp.pro</value>
     <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
-    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">AppPlayground.pro</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">vPlayBTApp.pro</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory.default">C:/Users/Tobi/Desktop/EmSys'WS18/EmSysBTApp/build-AppPlayground-V_Play_Desktop_Qt_5_10_0_MinGW-Debug</value>
     <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
@@ -284,6 +284,8 @@
   <valuelist type="QVariantList">
    <value type="QString">ProjectExplorer.Project.Target.0</value>
    <value type="QString">ProjectExplorer.Project.Target.0/ProjectExplorer.Target.RunConfiguration.0</value>
+   <value type="QString">ProjectExplorer.Project.Target.0/ProjectExplorer.Target.RunConfiguration.0/ProjectExplorer.ProjectConfiguration.DefaultDisplayName</value>
+   <value type="QString">ProjectExplorer.Project.Target.0/ProjectExplorer.Target.RunConfiguration.0/Qt4ProjectManager.Qt4RunConfiguration.ProFile</value>
   </valuelist>
  </data>
  <data>
