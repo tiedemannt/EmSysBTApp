@@ -2,9 +2,13 @@ import VPlayApps 1.0
 import QtQuick 2.0
 import io.qt.cppinterface.qmlbackend 1.0
 
+
 App {
     Navigation
     {
+        //----------------------------------------------------------------------------------
+        // Data View Page
+        //----------------------------------------------------------------------------------
         NavigationItem
         {
             id: dataviewpage
@@ -14,16 +18,18 @@ App {
             NavigationStack
             {
                 id: navigationStackdataviewpage
-                Page
-                {
-                    id: mainPage
-                    title: "Data View"
-                    backgroundColor: Theme.colors.secondaryBackgroundColor
 
+                DataViewPage{
+                    id:dataviewPage
                 }
+
             }
         }
 
+
+        //----------------------------------------------------------------------------------
+        // Connection Page
+        //----------------------------------------------------------------------------------
         NavigationItem
         {
             id: settings
@@ -33,13 +39,16 @@ App {
             NavigationStack
             {
                 id: navigationStacksettings
-                Page
-                {
-                    id: settingspage
-                    title: "Connect Device"
-                    backgroundColor: Theme.colors.secondaryBackgroundColor
+
+                SettingsPage{
+                    id:settingsPage
                 }
             }
         }
     }
 }
+
+/*##^## Designer {
+    D{i:0;autoSize:true;height:480;width:640}
+}
+ ##^##*/

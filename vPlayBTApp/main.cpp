@@ -4,6 +4,7 @@
 
 //Include C++ Backend
 #include "c_qmlbackend.h"
+#include "c_bluetoothhandler.h"
 
 
 int main(int argc, char *argv[])
@@ -13,6 +14,7 @@ int main(int argc, char *argv[])
 
   //Register UML Type
   qmlRegisterType<c_QmlBackEnd>("io.qt.cppinterface.qmlbackend", 1, 0, "QmlBackEnd");
+  qmlRegisterType<c_bluetoothHandler>("io.qt.cppinterface.bthandler", 1, 0, "BluetoothHandler");
 
   // Use platform-specific fonts instead of V-Play's default font
   vplay.setPreservePlatformFonts(true);
@@ -33,6 +35,11 @@ int main(int argc, char *argv[])
   // vplay.setMainQmlFileName(QStringLiteral("qrc:/qml/Main.qml"));
 
   engine.load(QUrl(vplay.mainQmlFileName()));
+
+
+
+  c_QmlBackEnd backend(&engine);
+
 
   return app.exec();
 }

@@ -1,6 +1,10 @@
 # allows to add DEPLOYMENTFOLDERS and links to the V-Play library and QtCreator auto-completion
 CONFIG += v-play
 
+#QT Additional libraries
+QT += bluetooth
+QT += core
+
 qmlFolder.source = qml
 DEPLOYMENTFOLDERS += qmlFolder # comment for publishing
 
@@ -23,7 +27,8 @@ RESOURCES += #    resources.qrc # uncomment for publishing
 
 # The .cpp file which was generated for your project. Feel free to hack it.
 SOURCES += main.cpp \
-    c_qmlbackend.cpp
+    c_qmlbackend.cpp \
+    c_bluetoothhandler.cpp
 
 android {
     ANDROID_PACKAGE_SOURCE_DIR = $$PWD/android
@@ -44,4 +49,11 @@ macx {
 }
 
 HEADERS += \
-    c_qmlbackend.h
+    c_qmlbackend.h \
+    c_bluetoothhandler.h
+
+DISTFILES += \
+    qml/Main.qml \
+    qml/SettingsPage.qml \
+    qml/DataViewPage.qml \
+    qml/bticon.png

@@ -1,6 +1,8 @@
 #ifndef C_QMLBACKEND_H
 #define C_QMLBACKEND_H
 
+#include "c_bluetoothhandler.h"
+
 #include <QObject>
 
 class c_QmlBackEnd : public QObject
@@ -18,6 +20,7 @@ signals:
 public slots:
 
 private:
+    c_bluetoothHandler* m_bluetoothHandler;
 };
 
 #endif // C_QMLBACKEND_H
