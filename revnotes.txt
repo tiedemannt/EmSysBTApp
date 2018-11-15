@@ -12,3 +12,11 @@ Datum: 09.11.2018
 Version: v0.2
 Changes: V-Play Projekt initial erstellt
 Autor: tiedemann
+
+Datum: 15.11.2018
+Version: v0.3
+Changes: 
+   - QML neu strukturiert
+   - Bluetooth-Klasse initial erstellt
+   - C++-QML Connects (beide Seiten) initial "ausgefummelt"
+Autor: tiedemann

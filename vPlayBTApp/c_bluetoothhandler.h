@@ -40,7 +40,7 @@ public slots:
 private:
     QBluetoothDeviceDiscoveryAgent*     m_deviceDiscoveryAgent;     //Discovery Agent
     QList<QBluetoothDeviceInfo>         m_discoveredDevices;        //Liste gefundene Devices
-    QObject*                            m_parent;                   //Das Parent
+
 
 };
 
